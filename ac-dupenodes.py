@@ -4,7 +4,10 @@ Identifies resource nodes in AC DB that are too close to each other.
  
 Queries - not all nodes are members of a pool?
 As pools can spawn multiple members, does pool membership even need to
-be checked? Not doing so atm, but may need to?
+be checked? 
+
+To do: given a set of XYZ coords, find if any nodes in the DB are already
+too close. This would help with later node replacement/repopulation.
 
 '''
 # map id: 0 = Eastern Kingdoms, 1 = Kalimdor, 530 = Outland, 571 = Northrend
@@ -100,7 +103,8 @@ def import_sql_node_data(db_user, db_pass, resource_type):
             'Adamantite Deposit':325, 'Cobalt Deposit':350,
             'Khorium Vein':375, 'Saronite Deposit':400, 
             'Titanium Vein':450}
-            
+    
+    # TODO: need to check the escaped apostrophes aren't messing things up
     herbs = {'Peacebloom':1, 'Silverleaf':1, 'Earthroot':15, 'Mageroyal':50, 
              'Briarthorn':70, 'Stranglekelp':85, 'Bruiseweed':100, 
              'Wild Steelbloom':115, 'Grave Moss':120, 'Kingsblood':125, 
