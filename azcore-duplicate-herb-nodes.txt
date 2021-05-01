@@ -1,0 +1,134 @@
+1. Peacebloom, ID: 1512 at X: -946.539, Y: -2618.98, Z: 91.7864, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 126 -> Peacebloom, ID: 13564 at X: -946.539, Y: -2618.98, Z: 91.7864, distance 0.0 units.
+
+2. Peacebloom, ID: 1560 at X: -218.375, Y: -2586.92, Z: 94.245, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 138 -> Peacebloom, ID: 13545 at X: -218.375, Y: -2586.92, Z: 94.245, distance 0.0 units.
+
+3. Peacebloom, ID: 1663 at X: 390.577, Y: -3414.15, Z: 95.0342, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 156 -> Peacebloom, ID: 13557 at X: 390.577, Y: -3414.15, Z: 95.0342, distance 0.0 units.
+
+4. Silverleaf, ID: 462 at X: 426.637, Y: -2819.96, Z: 91.6667, Pool: 801, Desc: Silverleaf,Zone 17,Area 17,node 1 -> Silverleaf, ID: 13579 at X: 426.637, Y: -2819.96, Z: 91.6667, distance 0.0 units.
+
+5. Silverleaf, ID: 473 at X: 451.24, Y: -3405.39, Z: 91.6825, Pool: 801, Desc: Silverleaf,Zone 17,Area 17,node 2 -> Silverleaf, ID: 13570 at X: 451.24, Y: -3405.39, Z: 91.6825, distance 0.0 units.
+
+6. Silverleaf, ID: 482 at X: 129.599, Y: -2920.54, Z: 92.4678, Pool: 800, Desc: Silverleaf,Zone 17,Area 1704,node 3 -> Silverleaf, ID: 13580 at X: 129.599, Y: -2920.54, Z: 92.4678, distance 0.0 units.
+
+7. Silverleaf, ID: 945 at X: 17.3861, Y: -2470.59, Z: 91.6666, Pool: 801, Desc: Silverleaf,Zone 17,Area 17,node 57 -> Silverleaf, ID: 13590 at X: 17.3861, Y: -2470.59, Z: 91.6666, distance 0.0 units.
+
+8. Silverleaf, ID: 1051 at X: -1022.05, Y: -2285.38, Z: 93.5404, Pool: 805, Desc: Silverleaf,Zone 17,Area 387,node 72 -> Silverleaf, ID: 13584 at X: -1022.05, Y: -2285.38, Z: 93.5404, distance 0.0 units.
+
+9. Silverleaf, ID: 1138 at X: -320.032, Y: -2227.09, Z: 96.3361, Pool: 800, Desc: Silverleaf,Zone 17,Area 2757,node 84 -> Silverleaf, ID: 63423 at X: -320.032, Y: -2227.09, Z: 96.3361, distance 0.0 units.
+
+10. Silverleaf, ID: 1193 at X: -1032.97, Y: -2624.85, Z: 91.6771, Pool: 801, Desc: Silverleaf,Zone 17,Area 17,node 90 -> Silverleaf, ID: 13575 at X: -1032.97, Y: -2624.85, Z: 91.6771, distance 0.0 units.
+
+11. Earthroot, ID: 1796 at X: 659.889, Y: -3663.35, Z: 42.7321, Pool: 801, Desc: Earthroot,Zone 17,Area 17,node 184 -> Earthroot, ID: 13595 at X: 659.889, Y: -3663.35, Z: 42.7321, distance 0.0 units.
+
+12. Earthroot, ID: 1798 at X: -1546.28, Y: -3958.2, Z: 20.1385, Pool: 808, Desc: Earthroot,Zone 17,Area 391,node 186 -> Earthroot, ID: 13605 at X: -1546.28, Y: -3958.2, Z: 20.1385, distance 0.0 units.
+
+13. Earthroot, ID: 2072 at X: 962.542, Y: -3658.51, Z: 52.2945, Pool: 801, Desc: Earthroot,Zone 17,Area 17,node 307 -> Earthroot, ID: 63427 at X: 962.542, Y: -3658.51, Z: 52.2945, distance 0.0 units.
+
+14. Mageroyal, ID: 2109 at X: -3283.59, Y: -2118.74, Z: 91.8353, Pool: 807, Desc: Mageroyal,Zone 17,Area 390,node 326 -> Mageroyal, ID: 13821 at X: -3283.59, Y: -2118.74, Z: 91.8353, distance 0.0 units.
+
+15. Mageroyal, ID: 2161 at X: 180.086, Y: -1713.24, Z: 93.3485, Pool: 801, Desc: Mageroyal,Zone 17,Area 17,node 350 -> Briarthorn, ID: 14203 at X: 180.086, Y: -1713.24, Z: 93.3485, distance 0.0 units.
+
+16. Mageroyal, ID: 2393 at X: 737.1, Y: -3683.63, Z: 29.4815, Pool: 801, Desc: Mageroyal,Zone 17,Area 17,node 476 -> Mageroyal, ID: 30894 at X: 737.1, Y: -3683.63, Z: 29.4815, distance 0.0 units.
+
+17. Briarthorn, ID: 2887 at X: 951.368, Y: -2331.42, Z: 91.7039, Pool: 801, Desc: Briarthorn,Zone 17,Area 17,node 615 -> Briarthorn, ID: 14200 at X: 951.368, Y: -2331.42, Z: 91.7039, distance 0.0 units.
+
+18. Bruiseweed, ID: 3028 at X: -4034.0, Y: -1791.0, Z: 93.421, Pool: 813, Desc: Bruiseweed,Zone 17,Area 1701,node 632 -> Wild Steelbloom, ID: 4197 at X: -4034.0, Y: -1791.0, Z: 93.421, distance 0.0 units.
+
+19. Dreaming Glory, ID: 14116 at X: -2577.12, Y: 4205.41, Z: 5.95103, Pool: 977, Desc: Dreaming Glory zone 3519, node 4 -> Dreaming Glory, ID: 14117 at X: -2577.12, Y: 4205.41, Z: 5.95103, distance 0.0 units.
+
+20. Dreaming Glory, ID: 14125 at X: -2943.06, Y: 3643.02, Z: -6.67492, Pool: 977, Desc: Dreaming Glory zone 3519, node 6 -> Dreaming Glory, ID: 14126 at X: -2943.06, Y: 3643.02, Z: -6.67492, distance 0.0 units.
+
+21. Dreaming Glory, ID: 27570 at X: 1810.37, Y: 6879.84, Z: 145.352, Pool: 978, Desc: Dreaming Glory zone 3522, node 58 -> Dreaming Glory, ID: 27571 at X: 1810.37, Y: 6879.84, Z: 145.352, distance 0.0 units.
+
+22. Dreaming Glory, ID: 27573 at X: 2922.52, Y: 5138.39, Z: 264.666, Pool: 978, Desc: Dreaming Glory zone 3522, node 61 -> Dreaming Glory, ID: 27574 at X: 2922.52, Y: 5138.39, Z: 264.666, distance 0.0 units.
+
+23. Dreaming Glory, ID: 28041 at X: 4100.79, Y: 5342.18, Z: 269.254, Pool: 978, Desc: Dreaming Glory zone 3522, node 64 -> Dreaming Glory, ID: 28042 at X: 4100.79, Y: 5342.18, Z: 269.254, distance 0.0 units.
+
+24. Dreaming Glory, ID: 28106 at X: 3912.98, Y: 5657.31, Z: 268.433, Pool: 978, Desc: Dreaming Glory zone 3522, node 66 -> Dreaming Glory, ID: 28107 at X: 3912.98, Y: 5657.31, Z: 268.433, distance 0.0 units.
+
+25. Dreaming Glory, ID: 28127 at X: 2155.97, Y: 7124.07, Z: 364.706, Pool: 978, Desc: Dreaming Glory zone 3522, node 68 -> Dreaming Glory, ID: 28128 at X: 2155.97, Y: 7124.07, Z: 364.706, distance 0.0 units.
+
+26. Dreaming Glory, ID: 28268 at X: 4214.48, Y: 4163.75, Z: 110.663, Pool: 974, Desc: Dreaming Glory zone 3523, node 45 -> Dreaming Glory, ID: 28269 at X: 4214.48, Y: 4163.75, Z: 110.663, distance 0.0 units.
+
+27. Dreaming Glory, ID: 28289 at X: 1918.19, Y: 6091.42, Z: 139.73, Pool: 978, Desc: Dreaming Glory zone 3522, node 72 -> Dreaming Glory, ID: 28290 at X: 1918.19, Y: 6091.42, Z: 139.73, distance 0.0 units.
+
+28. Dreaming Glory, ID: 28292 at X: 1858.91, Y: 5874.75, Z: 143.009, Pool: 978, Desc: Dreaming Glory zone 3522, node 74 -> Dreaming Glory, ID: 28293 at X: 1858.91, Y: 5874.75, Z: 143.009, distance 0.0 units.
+
+29. Dreaming Glory, ID: 32109 at X: -606.092, Y: 1794.84, Z: 84.6214, Pool: 972, Desc: Dreaming Glory zone 3483, node 76 -> Dreaming Glory, ID: 32110 at X: -606.092, Y: 1794.84, Z: 84.6214, distance 0.0 units.
+
+30. Dreaming Glory, ID: 32781 at X: 2891.46, Y: 3992.46, Z: 153.35, Pool: 974, Desc: Dreaming Glory zone 3523, node 53 -> Dreaming Glory, ID: 32782 at X: 2891.46, Y: 3992.46, Z: 153.35, distance 0.0 units.
+
+31. Dreaming Glory, ID: 32785 at X: 1944.65, Y: 4968.99, Z: 155.925, Pool: 978, Desc: Dreaming Glory zone 3522, node 84 -> Dreaming Glory, ID: 32786 at X: 1944.65, Y: 4968.99, Z: 155.925, distance 0.0 units.
+
+32. Dreaming Glory, ID: 32806 at X: 4435.45, Y: 3511.04, Z: 186.053, Pool: 974, Desc: Dreaming Glory zone 3523, node 57 -> Dreaming Glory, ID: 32807 at X: 4435.45, Y: 3511.04, Z: 186.053, distance 0.0 units.
+
+33. Dreaming Glory, ID: 32813 at X: 4547.58, Y: 2636.57, Z: 181.886, Pool: 974, Desc: Dreaming Glory zone 3523, node 61 -> Dreaming Glory, ID: 32814 at X: 4547.58, Y: 2636.57, Z: 181.886, distance 0.0 units.
+
+34. Dreaming Glory, ID: 20950 at X: -1282.6, Y: 5942.4, Z: 204.183 -> Dreaming Glory, ID: 20949 at X: -1282.6, Y: 5942.4, Z: 204.183, Pool: 977, Desc: Dreaming Glory zone 3519, node 15, distance 0.0 units.
+
+35. Dreaming Glory, ID: 20954 at X: -1566.82, Y: 6007.96, Z: 206.458 -> Dreaming Glory, ID: 20953 at X: -1566.82, Y: 6007.96, Z: 206.458, Pool: 977, Desc: Dreaming Glory zone 3519, node 17, distance 0.0 units.
+
+36. Dreaming Glory, ID: 28320 at X: -1466.91, Y: 6010.63, Z: 201.616 -> Dreaming Glory, ID: 28319 at X: -1466.91, Y: 6010.63, Z: 201.616, Pool: 977, Desc: Dreaming Glory zone 3519, node 65, distance 0.0 units.
+
+37. Dreaming Glory, ID: 32730 at X: -1152.03, Y: 5655.35, Z: 75.9193 -> Dreaming Glory, ID: 32729 at X: -1152.03, Y: 5655.35, Z: 75.9193, Pool: 975, Desc: Dreaming Glory zone 3521, node 131, distance 0.0 units.
+
+38. Nightmare Vine, ID: 28447 at X: -4110.96, Y: 1393.62, Z: 83.0714, Pool: 976, Desc: Nightmare Vine zone 3520, node 32 -> Nightmare Vine, ID: 28448 at X: -4110.96, Y: 1393.62, Z: 83.0714, distance 0.0 units.
+
+39. Nightmare Vine, ID: 28475 at X: -4113.85, Y: 1890.02, Z: 75.5606, Pool: 976, Desc: Nightmare Vine zone 3520, node 34 -> Nightmare Vine, ID: 28476 at X: -4113.85, Y: 1890.02, Z: 75.5606, distance 0.0 units.
+
+40. Nightmare Vine, ID: 30434 at X: -3115.44, Y: 2721.48, Z: 63.8341, Pool: 976, Desc: Nightmare Vine zone 3520, node 44 -> Nightmare Vine, ID: 30435 at X: -3115.44, Y: 2721.48, Z: 63.8341, distance 0.0 units.
+
+41. Nightmare Vine, ID: 99815 at X: 882.495, Y: 2263.36, Z: 297.829, Pool: 972, Desc: Nightmare Vine zone 3483, node 277 -> Nightmare Vine, ID: 99817 at X: 882.495, Y: 2263.36, Z: 297.829, distance 0.0 units.
+
+42. Nightmare Vine, ID: 99816 at X: 784.762, Y: 2081.11, Z: 270.486, Pool: 972, Desc: Nightmare Vine zone 3483, node 278 -> Nightmare Vine, ID: 99818 at X: 784.762, Y: 2081.11, Z: 270.486, distance 0.0 units.
+
+43. Mana Thistle, ID: 14696 at X: -3989.97, Y: 3097.74, Z: 336.093, Pool: 977, Desc: Mana Thistle zone 3519, node 9 -> Mana Thistle, ID: 14723 at X: -3989.97, Y: 3097.74, Z: 336.093, distance 0.0 units.
+
+44. Mana Thistle, ID: 27559 at X: -1512.9, Y: 5991.96, Z: 193.754, Pool: 977, Desc: Mana Thistle zone 3519, node 62 -> Mana Thistle, ID: 27560 at X: -1512.9, Y: 5991.96, Z: 193.754, distance 0.0 units.
+
+45. Mana Thistle, ID: 28332 at X: -3686.13, Y: 3342.72, Z: 284.984, Pool: 977, Desc: Mana Thistle zone 3519, node 67 -> Mana Thistle, ID: 28333 at X: -3686.13, Y: 3342.72, Z: 284.984, distance 0.0 units.
+
+46. Mana Thistle, ID: 32735 at X: -1375.49, Y: 5623.03, Z: 180.611, Pool: 977, Desc: Mana Thistle zone 3519, node 79 -> Mana Thistle, ID: 32736 at X: -1375.49, Y: 5623.03, Z: 180.611, distance 0.0 units.
+
+47. Mana Thistle, ID: 32796 at X: -1559.12, Y: 5929.38, Z: 199.412, Pool: 977, Desc: Mana Thistle zone 3519, node 81 -> Mana Thistle, ID: 32797 at X: -1559.12, Y: 5929.38, Z: 199.412, distance 0.0 units.
+
+48. Lichbloom, ID: 86646 at X: 6142.6, Y: 195.027, Z: 374.565, Pool: 980, Desc: Lichbloom zone 210, node 99 -> Icethorn, ID: 100483 at X: 6142.6, Y: 195.027, Z: 374.565, distance 0.0 units.
+
+49. Wild Steelbloom, ID: 4156 at X: 618.244, Y: -91.0, Z: 135.776 -> Wintersbite, ID: 8191 at X: 618.218, Y: -91.0, Z: 135.774, distance 0.03 units.
+
+50. Wild Steelbloom, ID: 4204 at X: 781.27, Y: -345.0, Z: 153.329 -> Goldthorn, ID: 9211 at X: 781.176, Y: -345.0, Z: 153.247, distance 0.12 units.
+
+51. Mageroyal, ID: 2318 at X: 74.186, Y: -3444.0, Z: 28.167, Pool: 801, Desc: Mageroyal,Zone 17,Area 17,node 439 -> Mageroyal, ID: 13696 at X: 74.3646, Y: -3443.92, Z: 28.166, distance 0.2 units.
+
+52. Peacebloom, ID: 1644 at X: -416.0, Y: -2054.0, Z: 91.667, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 152 -> Peacebloom, ID: 63421 at X: -415.769, Y: -2054.01, Z: 91.667, distance 0.23 units.
+
+53. Peacebloom, ID: 1395 at X: -2258.0, Y: -1570.0, Z: 92.182, Pool: 809, Desc: Peacebloom,Zone 17,Area 1156,node 101 -> Peacebloom, ID: 13562 at X: -2257.83, Y: -1570.24, Z: 92.2167, distance 0.3 units.
+
+54. Wild Steelbloom, ID: 4102 at X: 490.03, Y: -576.0, Z: 180.76 -> Wintersbite, ID: 8194 at X: 490.42, Y: -576.0, Z: 180.857, distance 0.4 units.
+
+55. Earthroot, ID: 1793 at X: -2552.0, Y: -1731.0, Z: 109.768, Pool: 809, Desc: Earthroot,Zone 17,Area 1156,node 183 -> Earthroot, ID: 13599 at X: -2552.32, Y: -1730.75, Z: 109.963, distance 0.45 units.
+
+56. Peacebloom, ID: 1630 at X: -2196.0, Y: -2320.0, Z: 93.627, Pool: 809, Desc: Peacebloom,Zone 17,Area 1156,node 148 -> Peacebloom, ID: 13567 at X: -2196.5, Y: -2320.08, Z: 93.5697, distance 0.51 units.
+
+57. Peacebloom, ID: 1376 at X: -86.0, Y: -3649.0, Z: 27.185, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 100 -> Peacebloom, ID: 13558 at X: -86.2176, Y: -3649.48, Z: 27.1848, distance 0.53 units.
+
+58. Briarthorn, ID: 2886 at X: -1789.0, Y: -3205.0, Z: 89.764, Pool: 803, Desc: Briarthorn,Zone 17,Area 385,node 614 -> Briarthorn, ID: 14450 at X: -1789.54, Y: -3205.13, Z: 89.6333, distance 0.57 units.
+
+59. Earthroot, ID: 1792 at X: -3671.0, Y: -1757.0, Z: 92.468, Pool: 813, Desc: Earthroot,Zone 17,Area 1701,node 182 -> Earthroot, ID: 13675 at X: -3670.86, Y: -1756.42, Z: 92.5359, distance 0.6 units.
+
+60. Briarthorn, ID: 2724 at X: -1725.0, Y: -3736.0, Z: 15.618, Pool: 808, Desc: Briarthorn,Zone 17,Area 391,node 575 -> Briarthorn, ID: 14456 at X: -1724.61, Y: -3735.52, Z: 15.7342, distance 0.63 units.
+
+61. Peacebloom, ID: 1544 at X: 679.261, Y: -2214.0, Z: 94.433, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 135 -> Peacebloom, ID: 13546 at X: 679.832, Y: -2213.57, Z: 94.4202, distance 0.71 units.
+
+62. Mageroyal, ID: 2223 at X: -847.0, Y: -2877.0, Z: 91.814, Pool: 801, Desc: Mageroyal,Zone 17,Area 17,node 390 -> Mageroyal, ID: 14187 at X: -846.395, Y: -2877.4, Z: 91.7914, distance 0.73 units.
+
+63. Briarthorn, ID: 2652 at X: -1126.0, Y: -2927.0, Z: 94.15, Pool: 806, Desc: Briarthorn,Zone 17,Area 388,node 561 -> Briarthorn, ID: 14452 at X: -1126.16, Y: -2926.29, Z: 94.1394, distance 0.73 units.
+
+64. Silverleaf, ID: 879 at X: -428.0, Y: -2486.0, Z: 92.1681, Pool: 801, Desc: Silverleaf,Zone 17,Area 17,node 43 -> Silverleaf, ID: 31974 at X: -427.637, Y: -2486.69, Z: 92.1472, distance 0.78 units.
+
+65. Briarthorn, ID: 2599 at X: -1496.0, Y: -2354.0, Z: 93.112, Pool: 801, Desc: Briarthorn,Zone 17,Area 17,node 549 -> Briarthorn, ID: 14462 at X: -1496.22, Y: -2353.18, Z: 93.0797, distance 0.85 units.
+
+66. Peacebloom, ID: 1528 at X: -1220.0, Y: -2018.0, Z: 91.667, Pool: 801, Desc: Peacebloom,Zone 17,Area 17,node 131 -> Peacebloom, ID: 13552 at X: -1220.93, Y: -2018.09, Z: 91.6667, distance 0.93 units.
+
+67. Briarthorn, ID: 2644 at X: 942.179, Y: -2830.0, Z: 91.667, Pool: 801, Desc: Briarthorn,Zone 17,Area 17,node 558 -> Briarthorn, ID: 14302 at X: 941.36, Y: -2829.5, Z: 91.6667, distance 0.96 units.
+

@@ -31,7 +31,7 @@ class Node: # an individual resource spawn
     def __repr__(self):
         outstr = f'{self.name}, ID: {self.guid} at X: {self.x}, Y: {self.y}, Z: {self.z}'
         if self.pool:
-            outstr += f' , Pool: {self.pool}, Desc: {self.desc}'
+            outstr += f', Pool: {self.pool}, Desc: {self.desc}'
         return outstr
 
     def calc_distance(self, node2):
@@ -86,14 +86,12 @@ def open_sql_db(db_user, db_pass):
         print(e) 
     return db, db.cursor()
     
-def import_sql_node_data(db_user, db_pass):
+def import_sql_node_data(db_user, db_pass, resource_type):
     # just does ores for now, they seem to be more of a problem than herbs
     # note that skill lvls for nodes with very similar names, i.e.
     # cobalt/rich cobalt may be slightly off, but not enough to throw
     # off skill culling
     resources, nodelist = [], []
-    
-    db, cursor = open_sql_db(db_user, db_pass)
         
     ores = {'Copper Vein':1, 'Tin Vein':65, 'Silver Vein':75, 
             'Iron Deposit':125, 'Gold Vein':155, 'Mithril Deposit':175,
@@ -102,9 +100,29 @@ def import_sql_node_data(db_user, db_pass):
             'Adamantite Deposit':325, 'Cobalt Deposit':350,
             'Khorium Vein':375, 'Saronite Deposit':400, 
             'Titanium Vein':450}
+            
+    herbs = {'Peacebloom':1, 'Silverleaf':1, 'Earthroot':15, 'Mageroyal':50, 
+             'Briarthorn':70, 'Stranglekelp':85, 'Bruiseweed':100, 
+             'Wild Steelbloom':115, 'Grave Moss':120, 'Kingsblood':125, 
+             'Liferoot':150, 'Fadeleaf':160, 'Goldthorn':170, 
+             "Khadgar\\'s Whisker":185, 'Wintersbite':195, 'Firebloom':205, 
+             'Purple Lotus':210, "Arthas\\' Tears":220, 'Sungrass':230, 
+             'Blindweed':235, 'Ghost Mushroom':245, 'Gromsblood':250, 
+             'Golden Sansam':260, 'Dreamfoil':270, 'Mountain Silversage':280, 
+             'Plaguebloom':285, 'Icecap':290, 'Black Lotus':300, 'Felweed':300, 
+             'Dreaming Glory':315, 'Ragveil':325, 'Terocone':325, 
+             'Flame Cap':335, 'Goldclover':350, 'Nightmare Vine':365, 
+             'Mana Thistle':375, 'Tiger Lily':375, "Talandra\\'s Rose":385, 
+             "Adder\\'s Tongue":400, 'Frozen Herb':400, 'Lichbloom':425, 
+             'Icethorn':435, 'Frost Lotus':450}
+            
     #ores = {'Small Thorium Vein':230} #testbed
     
-    for k, v in ores.items():
+    curr_resource = ores if resource_type == 'ores' else herbs
+    
+    db, cursor = open_sql_db(db_user, db_pass)
+    
+    for k, v in curr_resource.items():
         query = f"SELECT entry FROM gameobject_template WHERE (name LIKE '%{k}%')"
         cursor.execute(query)
         entries = [x[0] for x in cursor.fetchall()]
@@ -138,8 +156,8 @@ def import_sql_node_data(db_user, db_pass):
 def main():
     db_user = 'root' # for local AzCore world DB, change as needed
     db_pass = 'password'
-    nodelist = import_sql_node_data(db_user, db_pass)
-    found = brute_nodesearch(nodelist)
+    nodelist = import_sql_node_data(db_user, db_pass, 'ores')
+    found = brute_nodesearch(nodelist, 3)
     export_results('azcore-duplicate-nodes.txt', found)
 
 if __name__ == '__main__':
