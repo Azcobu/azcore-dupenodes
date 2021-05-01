@@ -136,7 +136,7 @@ def import_sql_node_data(db_user, db_pass):
     return nodelist
 
 def main():
-    db_user = 'root'
+    db_user = 'root' # for local AzCore world DB, change as needed
     db_pass = 'password'
     nodelist = import_sql_node_data(db_user, db_pass)
     found = brute_nodesearch(nodelist)
