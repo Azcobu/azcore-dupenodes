@@ -7,7 +7,10 @@ As pools can spawn multiple members, does pool membership even need to
 be checked? 
 
 To do: given a set of XYZ coords, find if any nodes in the DB are already
-too close. This would help with later node replacement/repopulation.
+too close to given coords. This would help with later node replacement/repopulation.
+
+.002 - added x-pos culling, avoiding search of all remaining nodes in favour
+	   of just local ones, making node search ~10 times faster.
 
 '''
 # map id: 0 = Eastern Kingdoms, 1 = Kalimdor, 530 = Outland, 571 = Northrend
@@ -17,6 +20,7 @@ too close. This would help with later node replacement/repopulation.
 from os import listdir
 from mysql.connector import connect, Error
 from tqdm import tqdm
+import time
 
 class Node: # an individual resource spawn
     def __init__(self, guid, objid, mapid, x, y, z, name, skill, pool=None, desc=None):
@@ -58,18 +62,21 @@ def brute_nodesearch(nodelist, max_dist=3, skillcull=150):
     # brute force search for closest nodes, good enough for low node counts
     # skillcull tracks difference in skill needed to access a node, so
     # helps prevent comparing e.g. copper to saronite.
-    results = []
+	results = []
 
-    for pos, n1 in enumerate(tqdm(nodelist)):
-        for n2 in nodelist[pos+1:]:
-            if abs(n1.skill - n2.skill) <= skillcull:
-                currdist = n1.calc_distance(n2)
-                if currdist < max_dist:
-                    results.append([n1, n2, currdist])
+	for pos, n1 in enumerate(tqdm(nodelist)):
+		for n2 in nodelist[pos+1:]:
+			if abs(n1.x - n2.x) > max_dist: # cull based on x distance
+				break
+			else:
+				if abs(n1.skill - n2.skill) <= skillcull:
+					currdist = n1.calc_distance(n2)
+					if currdist < max_dist:
+						results.append([n1, n2, currdist])
 
-    results = sorted(results, key=lambda x:x[2]) # sort by distance apart
-    print(f'{len(results)} node pairs within {max_dist} units found.')
-    return results
+	results = sorted(results, key=lambda x:x[2]) 
+	print(f'{len(results)} node pairs within {max_dist} units found.')
+	return results
 
 def export_results(outfile, data):
     with open(outfile, 'w') as out:
@@ -84,7 +91,7 @@ def open_sql_db(db_user, db_pass):
                      user = db_user,
                      password = db_pass)
         if db.is_connected():
-            print('Connected to AzCore database.')
+            print('Connected to AzCore database, reading node data...')
     except Error as e:
         print(e) 
     return db, db.cursor()
@@ -154,15 +161,18 @@ def import_sql_node_data(db_user, db_pass, resource_type):
             
     cursor.close()
             
-    nodelist = sorted(nodelist, key=lambda x:x.skill)
+    nodelist = sorted(nodelist, key=lambda node:node.x) #sort by x-pos for culling
     return nodelist
 
 def main():
-    db_user = 'root' # for local AzCore world DB, change as needed
-    db_pass = 'password'
-    nodelist = import_sql_node_data(db_user, db_pass, 'ores')
-    found = brute_nodesearch(nodelist, 3)
-    export_results('azcore-duplicate-nodes.txt', found)
+	start = time.time()
+	db_user = 'root' # for local AzCore world DB, change as needed
+	db_pass = 'password'
+	nodelist = import_sql_node_data(db_user, db_pass, 'ores')
+	found = brute_nodesearch(nodelist, 3)
+	export_results('azcore-duplicate-nodes.txt', found)
+	runtime = time.time() - start
+	print(f'Total runtime is {round(runtime, 2)} seconds.')
 
 if __name__ == '__main__':
     main()
